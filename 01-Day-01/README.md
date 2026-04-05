@@ -53,7 +53,7 @@ You will see the following boiler plate code of HTML, Dont worry about it, its a
 You are a **Client** and you use **Browser** to access a website.
 You write `youtube.com` and hit enter. The Browser takes your request to server to get the `youtube.com` website. The server then return the code and files of `youtube.com` to browser and the browser renders the website.
 
-![Image Illustration of how websites work](./how-websites-work.png "Image Illustration of how websites work")
+![Image Illustration of how websites work](./how-websites-work.jpg "Image Illustration of how websites work")
 
 Websites have two Parts, The **Frontend** and **Backend.**
 
