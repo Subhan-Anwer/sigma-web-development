@@ -81,6 +81,9 @@ Measures the **visual stability** of the content and elements. It determines how
 
 Good CLS is **0.1 or less.**
 
+[layout-instability.webm](https://github.com/user-attachments/assets/094cdad9-be53-4734-8d5c-6aa41caa660a)
+
+
 ### 3. Interaction to Next Paint (INP)
 
 Measures **responsiveness**. It assesses how quickly a page responds to all user interactions (clicks, taps).
