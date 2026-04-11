@@ -1,0 +1,9 @@
+div {
+    margin: 20px;
+}
+
+input, select, textarea {
+    border-radius: 6px;
+    margin-top: 6px;
+    padding: 8px 10px;
+}

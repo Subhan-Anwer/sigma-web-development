@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form & Input - lets learn it</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Form to Apply for Web Developer</h1>
+    <form action="post">
+        <!-- Name -->
+        <div>
+            <label for="name">Enter Your Name</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Your Name" >
+        </div>
+
+        <!-- User Name -->
+        <div>
+            <label for="username">Enter Your Username</label>
+            <br>
+            <input type="text" name="username" id="username" placeholder="Create Username">
+        </div>
+
+        <!-- Password -->
+        <div>
+            <label for="password">Enter Your Password</label>
+            <br>
+            <input type="password" name="password" id="password" placeholder="Create a password">
+        </div>
+
+        <!-- Re-enter Password -->
+        <div>
+            <label for="password-2">Re-enter Your Password</label>
+            <br>
+            <input type="password" name="password-2" id="password-2" placeholder="Re-enter password">
+        </div>
+
+        <!-- Date of Birth -->
+        <div>
+            <label for="date">Date of Birth</label> <br>
+            <input type="date" name="date" id="date">
+        </div>
+
+        <!-- Gender -->
+        <div>
+            <label for="gender">Select Your Gender</label>
+            <br>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+
+        <!-- Newsletter -->
+        <div>
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">Subscribe to Newsletter</label>
+        </div>
+
+        <!-- Level -->
+        <div>
+            <label for="level">Select Your Level</label>
+            <br>
+
+            <select name="level" id="level">
+                <option value="intern">Intern</option>
+                <option value="junior">Junior</option>
+                <option value="mid">Mid</option>
+                <option value="senior">Senior</option>
+                <option value="team lead">Team Lead</option>
+            </select>
+        </div>
+
+        <!-- Feedback -->
+        <div>
+            <label for="feedback">Feedback</label>
+            <br>
+
+            <textarea name="feedback" id="feedback" placeholder="Enter your valuable feedback"></textarea>
+        </div>
+
+        <input type="submit"></input>
+    </form>
+</body>
+
+</html>
