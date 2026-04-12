@@ -1,0 +1,24 @@
+a {
+    margin: 6px;
+    padding: 10px;
+    background-color: skyblue;
+}
+
+div {
+    margin: 6px;
+    padding: 10px;
+    background-color: rgb(255, 123, 99);
+}
+
+input {
+    margin: 6px;
+    padding: 10px;
+    background-color: rgb(195, 255, 99);
+    border-radius: 10px; 
+}
+
+p {
+    margin: 6px;
+    padding: 10px;
+    background-color: rgb(104, 255, 99);
+}
