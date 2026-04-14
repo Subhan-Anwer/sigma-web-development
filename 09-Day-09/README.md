@@ -1,6 +1,6 @@
 # Sigma Web Development Course
 
-## Tutorial # 09 |  in HTML
+## Tutorial # 09 | Id & Classes in HTML
 
 [![Sigma Web Development Course - Tutorial # 9](https://img.youtube.com/vi/vlAWzsGd-Yk/maxresdefault.jpg "Tutorial # 9 Id & Classes in HTML")](https://www.youtube.com/watch?v=vlAWzsGd-Yk&list=PLu0W_9lII9agq9TrH9XLIKQvv0iaF2X3w&index=9)
 
