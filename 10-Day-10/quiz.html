@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quick Quiz</title>
+</head>
+
+<body>
+    <h1>Quick Quiz</h1>
+    <p>Create a website which shows <strong>Videos</strong> of different categories and <strong>Audios</strong> of
+        different categories
+        <i>Hint: You can use YouTube videos in iframe using YouTubes embedding feature</i>
+    </p>
+
+
+    <h3>Here are some Videos:</h3>
+    <ul>
+        <li>
+            <p>Local video using Video with controls Tag</p>
+            <video src="video.mp4" controls height="500"></video>
+        </li>
+        <li>
+            <p>Autoplay Local video using Video Tag</p>
+            <video src="video.mp4" controls autoplay preload height="500"></video>
+        </li>
+        <li>
+            <p>Autoplay Mute Loca video using Video Tag</p>
+            <video src="video.mp4" controls autoplay muted preload height="500"></video>
+        </li>
+        <li>
+            <p>Local video using Video without controls Tag</p>
+            <video src="video.mp4" controls height="500"></video>
+        </li>
+        <li>
+            <p>YouTube Embedded Video using Iframe</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tVzUXW6siu0?si=Q0PMC1SliuuYkn85"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </li>
+    </ul>
+</body>
+
+</html>
