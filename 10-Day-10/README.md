@@ -2,7 +2,7 @@
 
 ## Tutorial # 10 | Audio, Video & Media in HTML
 
-[![Sigma Web Development Course - Tutorial # 10](https://img.youtube.com/vi/XZwBNDGuWGU/maxresdefault.jpg "Tutorial # 10 - Audio, Video & Media in HTML")](https://www.youtube.com/watch?v=XZwBNDGuWGU&list=PLu0W_10lII10agq10TrH10XLIKQvv0iaF2X3w&index=10)
+[![Sigma Web Development Course - Tutorial # 10](https://img.youtube.com/vi/XZwBNDGuWGU/maxresdefault.jpg "Tutorial # 10 - Audio, Video & Media in HTML")](https://www.youtube.com/watch?v=XZwBNDGuWGU&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=10)
 
 ---
 
