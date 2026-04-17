@@ -109,3 +109,54 @@ is displayed in a fixed-width
 both      spaces and
 line breaks
 </pre>
+
+<br>
+
+---
+
+<br>
+
+## Quotation Tag
+
+Quotation tag is used when you want to define content (text) that is taken from another source. for example a using the content from a Blog Post or talking about the headline from the News Article.
+
+### How To Use Quotation Tag
+
+There are two types of Quotation Tag:
+
+- **`<blockquote>` :** used for longer quotations or multiline quotations.
+- **`<q>` :** used for short quotations or inline / single line quotations.
+
+### Examples:
+
+#### 1. Short Inline Quote (`<q>`)
+
+Use this when you want to mention a quote as part of a regular sentence.
+
+```bash
+<p>As Albert Einstein once said, <q cite="https://example.com">Imagination is more important than knowledge.</q></p>
+```
+
+**Result:** The browser will automatically wrap the text in double quotes.
+
+<br>
+
+#### 2. Long Block Quote (`<blockquote>`)
+
+```bash
+<blockquote cite="https://worldwildlife.org">
+  <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members.</p>
+</blockquote>
+```
+
+> **Note:** Both tags support cite attribute, it is used to pass the source url of the quotation.
+
+<br>
+
+### Why Use These Tags?
+
+You will think that why cant i just type this normally, if for styling i can use span tag, the answer is Yes you can. But its very important for **SEO**. 
+
+Search Engine use these tags to understand the context and original source of your content, and establish your credibility not assuming you copied someone else's content and hence indexing your page better and making it rank.
+
+In short these tags provide semantic meaning to your page and content and telling search engine that you used this quotation from this source. 
