@@ -1,0 +1,21 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.paragraph {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+#btn {
+  border-radius: 25px;
+  width: 150px;
+  height: 45px;
+  margin-left: 45%;
+}
