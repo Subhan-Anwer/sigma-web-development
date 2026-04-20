@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different ways of adding CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        p {
+            color: dimgray;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; padding: 20px; background-color: black; color: white; border: 4px solid red;">Three
+        Different Ways of Adding CSS</h1>
+
+    <ol>
+        <li>
+            <h3>Inline CSS</h3>
+            <p>The quick and dirty way to style an element is by using inline css. We use style attribute for add inline
+                css.
+
+                <br>
+            <h4>Example:</h4>
+
+            <code><pre>&lt;<span class="green">h1</span>&gt; <span class="purple">style</span>="<span class="light-blue">text-align</span>: <span class="dark-blue">center</span>;">Inline CSS&lt;/<span class="green">h1</span>&gt;</pre></code>
+
+            <p><strong>
+                    Why this is Dirty and not Recommended?
+                </strong></p>
+            <br>
+            <p>
+                Inline CSS makes the HTML more longer, cluttered, repetitive, and difficult to maintain. If you want to give
+                styling to all the &lt;h1&gt; elements, you have to write inline CSS for every element individually unlike Internal /
+                External CSS. Use this method sparingly.</p>
+            </p>
+        </li>
+        
+        <br>
+
+        <li>
+            <h3>Internal CSS</h3>
+
+            <p>The internal style is defined inside the &lt;style&gt; element, inside the head section.</p>
+
+            <h4>Example:</h4>
+
+            <code><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="green">html</span>&gt;
+    &lt;<span class="green">head</span>&gt;
+        &lt;<span class="green">style</span>&gt;
+            <span class="green">h1 </span>{
+                <span class="light-blue">color</span>: <span class="purple">maroon</span>;
+                <span class="light-blue">margin-left</span>: <span class="purple">40</span><span class="pink">px</span>;
+            }
+        &lt;/<span class="green">style</span>
+    &lt;/<span class="green">head</span>&gt;
+
+    &lt;<span class="green">body</span>&gt;
+        &lt;<span class="green">h1</span>&gt; is a heading&lt;/<span class="green">h1</span>&gt;
+    &lt;/<span class="green">body</span>&gt;
+&lt;/<span class="green">html</span>&gt;</pre></code>
+
+            <p>
+                Its useful becuase it you can write CSS directly in the HTML file without disturbing the HTML code
+                unlike Inline CSS.
+                Its can only be used for the HTML where its written.
+            </p>
+
+            <p><i><strong>Tip:</strong> Use it when you want to style a single html file differently.
+                </i></p>
+        </li>
+
+        <br>
+
+        <li>
+            <h3>External CSS</h3>
+
+            <p>External CSS is an external <strong>.css</strong> file, as the name implies.</p>
+
+            <h4>Example:</h4>
+
+            <code>
+                <pre><span class="green">body</span> {
+    <span class="light-blue">text-align</span>: <span class="purple">center</span>;
+    <span class="light-blue">text-decoration</span>: <span class="purple">none</span>;
+}
+
+<span class="green">h1</span> {
+    <span class="light-blue">color</span>: <span class="purple">maroon</span>;
+    <span class="light-blue">margin-left</span>: <span class="purple">40</span><span class="pink">px</span>;
+}
+            </pre>
+            </code>
+        </li>
+    </ol>
+</body>
+
+</html>

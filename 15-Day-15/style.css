@@ -1,0 +1,26 @@
+pre {
+    padding: 20px;
+    background-color: #22272e;
+    color: #adbac7;
+    border-radius: 6px;
+}
+
+pre span.green {
+    color: lime;
+}
+
+pre span.purple {
+    color: rgb(152, 2, 245);
+}
+
+pre span.pink {
+    color: rgb(226, 3, 163);
+}
+
+pre span.light-blue {
+    color: lightblue;
+}
+
+pre span.dark-blue {
+    color: rgb(64, 64, 255);
+}
