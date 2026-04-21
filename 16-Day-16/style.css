@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 50px;
+    max-width: 100%;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+ul {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+li {
+    list-style: none;
+}
+
+audio {
+    border: 2px solid dimgray;
+    border-radius: 30px;
+}
+
+video {
+    border: 2px solid dimgray;
+    border-radius: 10px;
+}
+
+h3 {
+    margin-left: 25px;
+}
