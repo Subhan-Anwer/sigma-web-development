@@ -229,3 +229,6 @@ a:hover {
 <a class="anchor" href="http://www.google.com" target="_blank">Hover Me</a>
 
 > **Tip:** if you want to learn more about pseudo classes & selectors, you can visit this [resource.](https://web.dev/learn/css/pseudo-classes)
+---
+
+There are more Selectors to use for giving styling but these are the main and most used selectors.
