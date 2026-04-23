@@ -54,3 +54,22 @@ Selecting element by given **`class`** is the recommended method of selecting an
   background-color: red;
 }
 ```
+
+---
+
+## Select Element by ID
+
+We can also select elements by their **`ID`** attribute. however id is mostly used for javascript logic not for selecting for styling through css.
+
+**Example:**
+
+```html
+<p id="blue-para">Lorem ipsum</p>
+```
+
+```css
+#blue-para {
+  background-color: lightblue;
+  color: darkblue;
+}
+```
