@@ -139,3 +139,93 @@ Example:
   box-sizing: border-box;
 }
 ```
+
+---
+
+## Pseudo Selector
+
+A pseudo-class lets you apply styles based on state changes and external factors. This means that your website can react to user input such as an invalid/valid email address, hovering on and element, visiting link, etc. Examples are given below:
+
+:link
+:visited
+:active
+:hover
+
+### 1. Input Valid / Invalid
+
+Change the color of the input field's border based on the valid and invalid input of user.
+
+```html
+<label for="email">Email address</label>
+<input
+  type="email"
+  id="email"
+  required
+  placeholder="email@domain.com"
+  aria-describedby="emailinfo"
+/>
+```
+
+```css
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
+```
+
+**Result:**
+
+<style>
+    input{
+        padding: 14px 18px;
+        border-radius: 6px;
+        font-size: 20px;
+        border: 2px solid gray;
+    }
+
+    input:valid {
+        border-color: green;
+    }
+
+    input:invalid {
+        border-color: red;
+    }
+
+    input:focus {
+        border: yellow;
+    }
+</style>
+
+<label for="email">Email address</label>
+
+<input type="email" id="email" required placeholder="email@domain.com" aria-describedby="emailinfo"/>
+
+
+### 2. Hover
+Changing the style of an element when hover on that element. For instance, change the color a link's text or add underline while hovering on it.
+
+```html
+<a href="http://www.google.com" target="_blank">Hover Me</a>
+```
+```css
+a:hover {
+    background-color: green;
+}
+```
+
+**Result:**
+<style>
+    .anchor {
+        padding: 8px;
+        border-radius: 6px;
+    }
+    .anchor:hover {
+        background-color: green;
+    }
+</style>
+<a class="anchor" href="http://www.google.com" target="_blank">Hover Me</a>
+
+> **Tip:** if you want to learn more about pseudo classes & selectors, you can visit this [resource.](https://web.dev/learn/css/pseudo-classes)
