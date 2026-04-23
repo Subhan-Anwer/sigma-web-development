@@ -123,3 +123,19 @@ div p {
   background-color: aqua;
 }
 ```
+
+---
+
+## Universal Selector
+
+For selecting all elements of all kinds not just all elements of same kind, we can use **`universal selector`**
+
+Example:
+
+```css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+```
