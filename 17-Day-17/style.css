@@ -1,0 +1,50 @@
+/* Element Name Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Class Selector */
+
+.red {
+    background-color: red;
+}
+
+#blue-para {
+    background-color: lightblue;
+    color: darkblue;
+    padding: 25px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* Child Selector */
+
+div > p {
+    text-decoration: underline;
+    background-color: aqua;   
+}
+
+/* Pseudo Selector */
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
