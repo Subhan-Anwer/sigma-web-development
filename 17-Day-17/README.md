@@ -73,3 +73,28 @@ We can also select elements by their **`ID`** attribute. however id is mostly us
   color: darkblue;
 }
 ```
+
+---
+
+## Select a Child Element of a Parent
+
+If we want to make a condition to select the child of a parent or we want to select an element without class or id we can wrap it in a parent tag and select it to give styling specifically to only that child element of specified parent element.
+
+Heres how to do it.
+
+```html
+<div>
+  This is Parent Div of Paragraph
+
+  <p>This is a Child of Parent Div</p>
+</div>
+```
+
+```css
+div > p {
+  text-decoration: underline;
+  background-color: aqua;
+}
+```
+
+Here **`<div>`** is a parent element and **`<p>`** is the child element of **`<div>`**.
