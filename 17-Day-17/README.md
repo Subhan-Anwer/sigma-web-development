@@ -38,3 +38,19 @@ div {
 > This is about Element's Original Name not name attribute of an element eg name="custom-name"
 
 The drawback of using this selection method is that you cant control which particular element to select or not. Example: if you select a div by its element name all of the div on the entire file gets selected and gets same styling whether you want it or not.
+
+---
+
+## Select Element by Class
+
+Selecting element by given **`class`** is the recommended method of selecting and giving styling to a single or group of elements falls under the same class. Heres how to do it.
+
+```html
+<div class="red">This is a div with "red" class</div>
+```
+
+```css
+.red {
+  background-color: red;
+}
+```
