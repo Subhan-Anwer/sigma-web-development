@@ -98,3 +98,28 @@ div > p {
 ```
 
 Here **`<div>`** is a parent element and **`<p>`** is the child element of **`<div>`**.
+
+---
+
+## Select Descendant Element
+
+In child selector the **`>`** symbol stricts to only the direct child of the parent element, but if we want it to be flexible and select the descendant of the parent whether its wrapped inside another element, we can use _descendant selector_.
+
+its simple just remove the **`>`**, Heres how to do it.
+
+```html
+<div>
+  This is Parent Div of Paragraph. Childs are: article and paragraph.
+
+  <article>
+    <p>This is a Child of Parent Div</p>
+  </article>
+</div>
+```
+
+```css
+div p {
+  text-decoration: underline;
+  background-color: aqua;
+}
+```
