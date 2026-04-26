@@ -1,8 +1,8 @@
 # Sigma Web Development Course
 
-## Tutorial # 17 | CSS Box Model
+## Tutorial # 18 | CSS Box Model
 
-[![Sigma Web Development Course - Tutorial # 17 ](https://img.youtube.com/vi/Xrxd6cEajhM/maxresdefault.jpg "CSS Box Model")](https://www.youtube.com/watch?v=Xrxd6cEajhM&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=19)
+[![Sigma Web Development Course - Tutorial # 18 ](https://img.youtube.com/vi/Xrxd6cEajhM/maxresdefault.jpg "CSS Box Model")](https://www.youtube.com/watch?v=Xrxd6cEajhM&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=18)
 
 ---
 
