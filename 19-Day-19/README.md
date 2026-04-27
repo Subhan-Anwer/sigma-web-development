@@ -1,8 +1,8 @@
 # Sigma Web Development Course
 
-## Tutorial # 17 | CSS Fonts, Text & Color Properties
+## Tutorial # 19 | CSS Fonts, Text & Color Properties
 
-[![Sigma Web Development Course - Tutorial # 17 ](https://img.youtube.com/vi/aFicd4-YTfo/maxresdefault.jpg "CSS Fonts, Text & Color Properties")](https://www.youtube.com/watch?v=aFicd4-YTfo&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=19)
+[![Sigma Web Development Course - Tutorial # 19 ](https://img.youtube.com/vi/aFicd4-YTfo/maxresdefault.jpg "CSS Fonts, Text & Color Properties")](https://www.youtube.com/watch?v=aFicd4-YTfo&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=19)
 
 ---
 
