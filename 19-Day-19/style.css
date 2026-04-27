@@ -30,3 +30,23 @@ h1 {
 .underline {
     text-decoration: underline;
 }
+
+h3 {
+    background-color: #90ee90;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+.line-height {
+    line-height: 3;
+}
+
+.lorem {
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    border: 2px solid gray;
+    text-indent: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+}
