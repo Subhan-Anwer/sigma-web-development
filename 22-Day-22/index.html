@@ -1,11 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Sizing Units</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>CSS Sizing Units</h1>
+    <hr>
+
+    <h3>Pixels (px)</h3>
+    <p>
+        Pixels are the most commonly used unit of measurement in CSS. They represent a fixed size on the screen. <br>
+        Examples are given below:
+    </p>
+    <div class="px-container">
+        <div class="px-2">50px</div>
+        <div class="px-3">100px</div>
+        <div class="px-4">150px</div>
+        <div class="px-4">200px</div>
+        <div class="px-5">300px</div>
+    </div>
+
+    <hr>
+
+    <h3>Viewport Width (vw) & Viewport Height (vh)</h3>
+    <p>
+        Viewport units are relative to the size of the viewport. 1vw/1vh is equal to 1% of the viewport width/height.
+        <br>
+        Examples of Viewport Width and Height are given below:
+    </p>
+    <div class="vw-container">
+        <div class="sidebar-nav">
+            <ul>
+                <li>Contents</li>
+                <li>(Top)</li>
+                <li><a href="#">See also</a></li>
+                <li><a href="#">References</a></li>
+                <li><a href="#">External links</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h2>Viewport Units</h2>
+            <p>From Wikipedia, the free encyclopedia</p>
+
+            <p>
+                A <strong>viewport</strong> is a polygon viewing region in computer graphics.
+            </p>
+            <p>
+                Viewport units are a powerful tool for creating responsive designs. They allow you to size elements
+                based on the size of the viewport, which can help ensure that your design looks good on all devices.
+            </p>
+            <p>
+                For example, you can use vw to set the width of an element to be a percentage of the viewport width.
+                This can be useful for creating fluid layouts that adapt to different screen sizes.
+            </p>
+            <p>
+                Similarly, you can use vh to set the height of an element to be a percentage of the viewport height.
+                This can be useful for creating full-screen sections or ensuring that content fits within the visible
+                area of the screen.
+            </p>
+        </div>
+        <div class="appearance">
+            <h5>Appearance</h5>
+            <hr>
+
+            <p>Text</p>
+            <hr>
+
+            <form action="">
+                <div><input type="radio" name="size" id="small" value="0" checked>
+                    <label for="small">Small</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="size" id="standard" value="1">
+                    <label for="standard">Standard</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="size" id="large" value="2">
+                    <label for="large">Large</label>
+                </div>
+            </form>
+
+            <p>Width</p>
+            <hr>
+            <form action="">
+                <div>
+                    <input type="radio" name="width" id="standard-width" value="0" checked>
+                    <label for="standard-width">Standard</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="width" id="wide" value="1">
+                    <label for="wide">Wide</label>
+                </div>
+            </form>
+
+            <p>Color</p>
+            <hr>
+            <form action="">
+                <div>
+                    <input type="radio" name="color" id="auto" value="2" checked>
+                    <label for="auto">Automatic</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="color" id="light" value="0">
+                    <label for="light">Light</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="color" id="dark" value="1">
+                    <label for="dark">Dark</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="em-unit">
+        <h3>EM (em)</h3>
+        <div>
+            <button onclick="changeFontSize('small')">Small</button>
+            <button onclick="changeFontSize('medium')">Medium</button>
+            <button onclick="changeFontSize('large')">Large</button>
+        </div>
+        <hr>
+
+        <h4>Blog Post</h4>
+        <h5>Secondary Heading</h5>
+        <p>This is a paragraph with some sample text.</p>
+        
+    </div>
+
+    <script>
+        function changeFontSize(size) {
+            const emUnit = document.querySelector('.em-unit');
+            switch (size) {
+                case 'small':
+                    emUnit.style.fontSize = '10px';
+                    break;
+                case 'medium':
+                    emUnit.style.fontSize = '15px';
+                    break;
+                case 'large':
+                    emUnit.style.fontSize = '20px';
+                    break;
+            }
+        }
+    </script>
 </body>
+
 </html>
