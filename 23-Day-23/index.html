@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            border: 2px solid black;
+            background: lightblue;
+        }
+        .box {
+            display: inline-block;
+            border: 2px solid gray;
+            padding: 25px;
+            margin: 20px;
+        }
+
+        .hidden {
+            visibility: hidden;
+        }
+
+        .box2:hover {
+            cursor: pointer;
+        }
+
+        .display-none {
+            display: none;
+        }
+
+        .toggle {
+            padding: 10px;
+            text-align: center;
+            background-color: #04AA6D;
+            color: white;
+            padding: 20px;
+            margin: auto;
+            border: 1px solid #a6d8a8;
+            cursor: pointer;
+        }
+
+        .hidden-panel {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display Property in CSS</h1>
+    <br>
+
+    <div class="container">
+
+        <button class="btn">Hide/Unhide Box</button>
+        <br>
+        <div class="box">This is a box</div>
+        <div class="box box2">Also a box</div>
+        <div class="box hidden">This is a box</div>
+        
+        <span>we are box too!</span>
+        <span>we are box too!</span>
+
+    </div>
+
+    <br>    <hr>
+
+    <div class="toggle toggle-btn"> Click to show hidden panel </div>
+    <div class="toggle hidden-panel"> This panel contains a &lt;div&gt; element, which is hidden by default, with display: none.
+    
+        We use JavaScript to show it (change it to display: block).
+    </div>
+
+    <script>
+        const btn = document.querySelector('.btn');
+        const box2 = document.querySelector('.box2');
+        btn.addEventListener('click', () => {
+            box2.classList.toggle('display-none');
+        });
+
+        // Show hidden panel logic
+
+        const toggleBtn = document.querySelector('.toggle-btn');
+        const hiddenPanel = document.querySelector('.hidden-panel');
+
+        toggleBtn.addEventListener('click', () => {
+            if (hiddenPanel.style.display === 'none' || hiddenPanel.style.display === '') {
+                hiddenPanel.style.display = 'block';
+                toggleBtn.textContent = 'Click to hide panel';
+            } else {
+                hiddenPanel.style.display = 'none';
+                toggleBtn.textContent = 'Click to show hidden panel';
+            }
+        });
+    </script>
+</body>
+</html>
+
