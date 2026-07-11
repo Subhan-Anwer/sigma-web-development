@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Property</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>CSS Position Property</h1>
+        <p>See how each position value changes the placement of elements</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Section 1: Static (Default) -->
+        <section class="demo-section" id="static-demo">
+            <h2>Static <span class="tag">Default</span></h2>
+            <p class="description">Elements are placed in the normal document flow. Top, left, right, bottom properties have <strong>no effect</strong>.</p>
+            <div class="demo-area">
+                <div class="box box-static">Box 1 (static)</div>
+                <div class="box box-static">Box 2 (static)</div>
+                <div class="box box-static">Box 3 (static)</div>
+            </div>
+        </section>
+
+        <!-- Section 2: Relative -->
+        <section class="demo-section" id="relative-demo">
+            <h2>Relative</h2>
+            <p class="description">Element stays in the normal flow but is <strong>shifted</strong> from its original position using top, left, right, bottom. The original space is still preserved.</p>
+            <div class="demo-area">
+                <div class="box box-static">Box 1 (static)</div>
+                <div class="box box-relative">Box 2 (relative — moved 30px down & 40px right)</div>
+                <div class="box box-static">Box 3 (static — stays in place, gap preserved)</div>
+            </div>
+        </section>
+
+        <!-- Section 3: Absolute -->
+        <section class="demo-section" id="absolute-demo">
+            <h2>Absolute</h2>
+            <p class="description">Element is <strong>removed from the normal flow</strong> and positioned relative to its nearest positioned ancestor (the grey box below has <code>position: relative</code>).</p>
+            <div class="demo-area absolute-parent">
+                <span class="parent-label">Parent (position: relative)</span>
+                <div class="box box-static">Box 1 (static)</div>
+                <div class="box box-absolute">Box 2 (absolute — top: 10px, right: 10px)</div>
+                <div class="box box-static">Box 3 (static — acts like Box 2 doesn't exist)</div>
+            </div>
+        </section>
+
+        <!-- Section 4: Fixed -->
+        <section class="demo-section" id="fixed-demo">
+            <h2>Fixed</h2>
+            <p class="description">Element is <strong>removed from the flow</strong> and positioned relative to the <strong>viewport</strong>. It stays in the same spot even when you scroll. Look at the <strong>"I'm Fixed!"</strong> badge at the bottom-right corner — it never moves!</p>
+            <div class="demo-area">
+                <div class="box box-static">Box 1 (static)</div>
+                <div class="box box-static">Box 2 (static)</div>
+                <div class="box box-static">Box 3 (static)</div>
+            </div>
+        </section>
+
+        <!-- Section 5: Sticky -->
+        <section class="demo-section" id="sticky-demo">
+            <h2>Sticky</h2>
+            <p class="description">Element behaves like <strong>relative</strong> until you scroll past it — then it <strong>sticks</strong> to the given position (like fixed). Scroll inside the box below to see it in action.</p>
+            <div class="demo-area sticky-scroll-area">
+                <div class="filler-text">↓ Scroll down inside this box ↓</div>
+                <div class="filler-block"></div>
+                <div class="box box-sticky">I'm Sticky! (top: 0)</div>
+                <div class="filler-block"></div>
+                <div class="filler-block"></div>
+                <div class="filler-block"></div>
+                <div class="filler-text">↑ Scroll back up ↑</div>
+            </div>
+        </section>
+
+        <!-- Section 6: Z-Index -->
+        <section class="demo-section" id="zindex-demo">
+            <h2>Z-Index</h2>
+            <p class="description">When positioned elements overlap, <strong>z-index</strong> controls which one appears on top. Higher value = closer to you.</p>
+            <div class="demo-area zindex-area">
+                <div class="box zindex-box z1">z-index: 1</div>
+                <div class="box zindex-box z2">z-index: 2</div>
+                <div class="box zindex-box z3">z-index: 3</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="page-footer">
+        <p>Day 28 — Sigma Web Development Course</p>
+    </footer>
+
+</body>
+</html>
