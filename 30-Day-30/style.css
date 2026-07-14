@@ -1,0 +1,31 @@
+:root {
+    --main-color: purple;
+    --second-color: lightblue;
+    --text-color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+.box1,
+.box2 {
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.box1 {
+    background-color: var(--second-color);
+    border: 10px solid var(--main-color);
+}
+
+.box2 {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border: 10px solid var(--second-color);
+}
