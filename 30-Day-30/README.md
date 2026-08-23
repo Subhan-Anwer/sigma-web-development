@@ -1,6 +1,6 @@
 # Sigma Web Development Course
 
-## Tutorial # 30 | Exercise 3
+## Tutorial # 30 | CSS Variables
 
 [![Sigma Web Development Course - Tutorial # 30 - CSS Variables ](https://img.youtube.com/vi/ovRU9xHfly4/maxresdefault.jpg "CSS Variables")](https://www.youtube.com/watch?v=ovRU9xHfly4&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=30)
 
